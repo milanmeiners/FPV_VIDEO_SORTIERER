@@ -1,0 +1,35 @@
+DROHNEN-VIDEO-SORTIERER
+=======================
+
+STARTEN
+  Doppelklick auf "Start.bat".
+  Beim allerersten Mal installiert es Python und ein paar Bausteine (Internet noetig).
+  Falls es danach heisst "bitte noch einmal starten": einfach nochmal doppelklicken.
+  Falls Windows "Der Computer wurde durch Windows geschuetzt" zeigt:
+  "Weitere Informationen" -> "Trotzdem ausfuehren".
+
+BENUTZEN
+  1. Ordner mit den Drohnenvideos waehlen.
+  2. "Analyse starten" - zuerst mit Haken bei "Testlauf" (20 Videos).
+  3. "Bericht ansehen" - zeigt pro Video einen Kontaktbogen mit 12 Bildern,
+     eine gruene Leiste fuer die Flugzeit und den Grund fuer die Einstufung.
+  4. Passt alles: Haken bei Testlauf weg und alle Videos analysieren
+     (Laptop ans Netzteil, am besten ueber Nacht).
+  5. "Videos einsortieren" verschiebt die Videos in den gewaehlten Ordner:
+       1_Behalten\2025-06\2025-06-14\14-32-05_DJI_0042.MP4
+       2_Anschauen\...   (gleiche Ordnung, Grenzfaelle zum selbst entscheiden)
+       3_Zum_Loeschen\   (erst durchschauen, dann selbst im Explorer loeschen)
+
+SICHERHEIT
+  - Das Programm loescht NIE etwas, es verschiebt nur.
+  - "Rueckgaengig" holt die letzte Einsortierung komplett zurueck.
+  - Abbrechen ist jederzeit moeglich; beim naechsten Start macht es dort weiter.
+  - Begleitdateien (.SRT, .LRF, .THM) wandern mit dem Video mit.
+
+REGELN
+  - Mindestens 30 Sekunden Flug am Stueck (kurze ruhige Momente bis 3 s zaehlen mit)
+  - Nicht zu dunkel, nicht zu verrauscht, nicht unscharf
+  Die Grenzwerte stehen in "einstellungen.json" (entsteht beim ersten Start).
+
+Analyse-Daten, Kontaktboegen und Bericht liegen im Unterordner "_FPV_Sortierung"
+des Videoordners. Den kann man spaeter einfach loeschen.

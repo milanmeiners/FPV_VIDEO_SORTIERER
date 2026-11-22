@@ -1,0 +1,5 @@
+# Laufzeitdateien (entstehen beim ersten Start)
+.bereit
+einstellungen.json
+_FPV_Sortierung/
+__pycache__/
